@@ -1,5 +1,7 @@
 # Visual Studio shortcuts
 
+## Selection
+
 - `Ctrl` + `Alt` + click : Add a secondary caret
 - `Ctrl` + `Alt` + double-click : Add a secondary word selection
 - `Ctrl` + `Alt` + click + drag : Add a secondary selection
