@@ -11,3 +11,6 @@
 - `Shift` + `Alt` + / : Skip next matching occurrence
 - `Alt` + click : Add a box selection
 - `Esc` or click : Clear all selections
+
+## Move lines / methods (Resharper)
+`Ctrl` + `Shift` + `Alt` + `↑`/`↓`/`←`/`→`
