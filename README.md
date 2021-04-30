@@ -1,5 +1,10 @@
 # Visual Studio shortcuts
 
+## Refactoring (Resharper)
+- Add parameter: `Ctrl` + `R`, `P`
+- Change return type: `Ctrl` + `R`, `S`
+
+
 ## Selection
 
 - `Ctrl` + `Alt` + click : Add a secondary caret
