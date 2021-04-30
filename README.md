@@ -1,8 +1,8 @@
 # Visual Studio shortcuts
 
 ## Refactoring (Resharper)
-- Add parameter: with cursor near variable press `Ctrl` + `R`, `P`
-- Change return type: with cursor near method name press `Ctrl` + `R`, `S`
+- **Add parameter**: _with cursor near variable press_ `Ctrl` + `R`, `P`
+- **Change return type**: _with cursor near method name press_ `Ctrl` + `R`, `S`
 
 
 ## Selection
