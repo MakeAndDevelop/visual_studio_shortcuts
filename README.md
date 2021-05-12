@@ -19,3 +19,6 @@
 
 ## Move lines / methods (Resharper)
 `Ctrl` + `Shift` + `Alt` + `↑`/`↓`/`←`/`→`
+
+## Remove lines (Resharper)
+`Ctrl` + `Shift`+ `L`
