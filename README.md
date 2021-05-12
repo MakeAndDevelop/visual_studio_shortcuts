@@ -20,5 +20,8 @@
 ## Move lines / methods (Resharper)
 `Ctrl` + `Shift` + `Alt` + `↑`/`↓`/`←`/`→`
 
-## Remove lines (Resharper)
-`Ctrl` + `Shift`+ `L`
+## Remove/Add lines (Resharper)
+- **Remove line:** `Ctrl` + `Shift` + `L`
+- **Add line above:** `Ctrl` + `Enter`
+- **Add line below:** `Shift` + `Enter`
+- **Duplicate line:** `Ctrl` + `D`
