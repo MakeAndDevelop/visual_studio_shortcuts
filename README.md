@@ -22,6 +22,6 @@
 
 ## Remove/Add lines (Resharper)
 - **Remove line:** `Ctrl` + `Shift` + `L`
+- **Duplicate line:** `Ctrl` + `D`
 - **Add line above:** `Ctrl` + `Enter`
 - **Add line below:** `Shift` + `Enter`
-- **Duplicate line:** `Ctrl` + `D`
