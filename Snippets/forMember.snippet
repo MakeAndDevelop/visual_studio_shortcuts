@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>ForMember</Title>
+			<Shortcut>formem</Shortcut>
+			<Description>Code snippet for a new automapper ForMemberMapping</Description>
+			<Author>Duco Fronik</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>destMember</ID>
+					<ToolTip>Destination member</ToolTip>
+					<Default>DestProperty</Default>
+				</Literal>
+				<Literal>
+					<ID>srcMember</ID>
+					<ToolTip>Source member</ToolTip>
+					<Default>SrcProperty</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[.ForMember(dest => dest.$destMember$, opt => opt.MapFrom(src => src.$srcMember$)) $end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
