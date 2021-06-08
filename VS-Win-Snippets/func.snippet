@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Func</Title>
+			<Shortcut>func</Shortcut>
+			<Description>Code snippet for a new Func</Description>
+			<Author>Duco Fronik</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>inputType</ID>
+					<ToolTip>Input type</ToolTip>
+					<Default>object</Default>
+				</Literal>
+				<Literal>
+					<ID>outputType</ID>
+					<ToolTip>Outpur Type</ToolTip>
+					<Default>object</Default>
+				</Literal>
+				<Literal>
+					<ID>funcName</ID>
+					<ToolTip>Func Name</ToolTip>
+					<Default>MyFunc</Default>
+				</Literal>
+				<Literal>
+					<ID>funcBody</ID>
+					<ToolTip>Func body</ToolTip>
+					<Default>true</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[public Func<$inputType$, $returnType$> $funcName$ = $funcBody$$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
