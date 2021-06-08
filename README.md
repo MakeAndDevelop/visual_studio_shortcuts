@@ -1,4 +1,4 @@
-# Snippet installation guide
+# VS Windows - Snippet installation guide
 - Clone this repository to the directory of your liking here after references by `$RepositoryDirectory$`
 - Create a hard symlink between your Visual Studio for windowsd snippet directory and your repos VS snippet directory
     - Copy the path of your snippet directory, the default path is: `%userprofile%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets`
@@ -25,7 +25,7 @@
 - `Alt` + click : Add a box selection
 - `Esc` or click : Clear all selections
 
-## Move lines / methods (Resharper)
+## Move methods / code blocks (Resharper)
 `Ctrl` + `Shift` + `Alt` + `↑`/`↓`/`←`/`→`
 
 ## Remove/Add lines (Resharper)
