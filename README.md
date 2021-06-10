@@ -1,6 +1,6 @@
 # VS Windows - Snippet installation guide
-- Clone this repository to the directory of your liking here after references by `$RepositoryDirectory$`
-- Create a hard symlink between your Visual Studio for windowsd snippet directory and your repos VS snippet directory
+- Clone this repository to the directory of your liking here after referenced by `$RepositoryDirectory$`
+- Create a hard symlink between your Visual Studio for Windows snippet directory and the VS snippet directory in this repository
     - Copy the path of your snippet directory, the default path is: `%userprofile%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets`
     - Create the symlink with CMD (in administrator mode): `mklink /J "$RepositoryDirectory$\VS-Win-Snippets" "%userprofile%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets"`
     - You are all set.
