@@ -10,8 +10,9 @@
 
 ## Refactoring (Resharper)
 - **Add parameter**: _with cursor near variable press_ `Ctrl` + `R`, `P`
+- **Extract method**: _with code block selected press_ `Ctrl` + `R`, `M`
+- **Extract field/constant**: _with cursor in variable or value press_ `Ctrl` + `R`, `F`
 - **Change return type**: _with cursor near method name press_ `Ctrl` + `R`, `S`
-
 
 ## Selection
 
