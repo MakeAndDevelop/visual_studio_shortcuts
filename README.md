@@ -2,7 +2,7 @@
 - Clone this repository to the directory of your liking here after referenced by `$RepositoryDirectory$`
 - Create a hard symlink between your Visual Studio for Windows snippet directory and the VS snippet directory in this repository
     - Copy the path of your snippet directory, the default path is: `%userprofile%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets`
-    - Create the symlink with CMD (in administrator mode): `mklink /J "$RepositoryDirectory$\VS-Win-Snippets" "%userprofile%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets"`
+    - Create the symlink with CMD (in administrator mode): `mklink /J "$RepositoryDirectory$\VS-Win-Snippets" "%userprofile%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets"`
     - You are all set.
 - Now you can use this or the default snippet folder as you are used to and commit and push local changes, or pull in changes from remote
 
