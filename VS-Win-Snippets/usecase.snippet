@@ -26,9 +26,9 @@
 			<Code Language="csharp">
 <![CDATA[public static class $useCaseName$
 {
-    public record $useCaseName$Query() : IRequest<$returnType$>;
+    public record Query() : IRequest<$returnType$>;
 
-    public class Handler : IRequestHandler<$useCaseName$Query, $returnType$>
+    public class Handler : IRequestHandler<Query, $returnType$>
     {
         private readonly ApplicationDbContext _dbContext;
         private readonly ILogger<Handler> _logger;
@@ -40,7 +40,7 @@
         }
 
 
-        public async Task<$returnType$> Handle($useCaseName$Query request, CancellationToken cancellationToken)
+        public async Task<$returnType$> Handle(Query request, CancellationToken cancellationToken)
         {
             
         }
