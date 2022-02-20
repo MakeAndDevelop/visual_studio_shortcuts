@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>UseCase</Title>
+			<Shortcut>usecase</Shortcut>
+			<Description>Code snippet for a default UseCase template</Description>
+			<Author>Duco Fronik</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>useCaseName</ID>
+					<ToolTip>UseCase name</ToolTip>
+					<Default>MyUseCase</Default>
+				</Literal>
+				<Literal>
+					<ID>returnType</ID>
+					<ToolTip>Return type</ToolTip>
+					<Default>int</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+<![CDATA[public static class $useCaseName$
+{
+    public record $useCaseName$Query() : IRequest<$returnType$>;
+
+    public class Handler : IRequestHandler<$useCaseName$Query, $returnType$>
+    {
+        private readonly ApplicationDbContext _dbContext;
+        private readonly ILogger<Handler> _logger;
+
+        public Handler(ApplicationDbContext dbContext, ILogger<Handler> logger)
+        {
+            _dbContext = dbContext;
+            _logger = logger;
+        }
+
+
+        public async Task<$returnType$> Handle($useCaseName$Query request, CancellationToken cancellationToken)
+        {
+            
+        }
+    }
+}$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
