@@ -2,8 +2,8 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>UseCaseBase</Title>
-			<Shortcut>baseusecase</Shortcut>
+			<Title>UseCase with BaseHandler</Title>
+			<Shortcut>usecase</Shortcut>
 			<Description>Code snippet for a default UseCase template using a BaseHanlder</Description>
 			<Author>Duco Fronik</Author>
 			<SnippetTypes>
@@ -20,7 +20,7 @@
 				<Literal>
 					<ID>returnType</ID>
 					<ToolTip>Return type</ToolTip>
-					<Default>MyModel</Default>
+					<Default>int</Default>
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
@@ -40,7 +40,7 @@
         }
 
 
-        public async Task<$returnType$> Handle(Query request, CancellationToken cancellationToken)
+        public override async Task<$returnType$> Handle(Query request, CancellationToken cancellationToken)
         {
             
         }
